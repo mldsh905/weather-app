@@ -8,7 +8,7 @@ form.addEventListener("submit", (e) => {
 async function f() {
     try {
         const city = document.querySelector("#city");
-        const api = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city.value}&appid=b6bcaa18c26de70a19051f3100bf2376`);
+        const api = await fetch(`xxx`);
         const info = await api.json();
         const cityName = document.querySelector(".cityName");
         const temp = document.querySelector(".temp");
